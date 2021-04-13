@@ -1,0 +1,93 @@
+
+const data = {
+  users: [
+    {
+      id:1,  
+      name: 'ibrahim',
+      email: 'admin@example.com',
+      password: 1234,
+      isAdmin: true,
+      isSeller: true,
+      seller: {
+        name: 'Puma',
+        logo: '/images/logo1.png',
+        description: 'best seller',
+        rating: 4.5,
+        numReviews: 120,
+      },
+    },
+    {
+      id:2,
+      name: 'John',
+      email: 'user@example.com',
+      password: 1234,
+      isAdmin: false,
+    },
+  ],
+  products: [
+    {
+      id:1,
+      name: 'APPLE MNHF2ZM/A EarPods',
+      category: 'Kopfhörer',
+      image: '/images/applemnhf2z.webp',
+      price: 19,
+      countInStock: 10,
+      brand: 'Apple',
+      rating: 4.8,
+      numReviews: 15,
+      description: 'Mit Fernbedienung und Mikrofon, von Apple entwickelt, tiefere, sattere Bässe, besserer Schutz vor Schweiß und Wasser, Wiedergabe von Musik und Videos steuern, Anrufe annehmen und beenden',
+    },
+    {
+      id:2,
+      name: 'JBL T210, In-ear Kopfhörer Schwarz',
+      category: 'Kopfhörer',
+      image: '/images/k.webp',
+      price: 16,
+      countInStock: 20,
+      brand: 'JBL',
+      rating: 4.5,
+      numReviews: 30,
+      description: 'Steuere deine Lieblingsmusik mit der Ein-Tasten-Fernbedienung und nimm Anrufe problemlos mit dem integrierten Mikrofon entgegen.',
+    },
+    {
+      id:3,
+      name: 'SONY MDR-EX15LP, In-ear Kopfhörer Schwarz',
+      category: 'Kopfhörer',
+      image: '/images/sonymdr.webp',
+      price: 8,
+      countInStock: 50,
+      brand: 'Sony',
+      rating: 4.3,
+      numReviews: 17,
+      description: 'Starker 9 mm Neodymium Magnet sorgt für satte Bässe und voluminösen Klangcharakter',
+    },
+    {
+      id:4,
+      name: 'SENNHEISER RS 127-8, Over-ear Kopfhörer Schwarz',
+      category: 'Kopfhörer',
+      image: '/images/sennheiser.webp',
+      price: 119,
+      countInStock: 15,
+      brand: 'Sennheiser',
+      rating: 4.8,
+      numReviews: 35,
+      description: 'Hervorragendes Klangbild für Musik und TV, Automatische Sendersuche, Sender dient gleichzeitig als Lade- und Aufbewahrungsstation',
+    },
+    {
+      id:5,
+      name: 'PHILIPS SHK2000BL/00, On-ear Kopfhörer Blau/Grün',
+      category: 'Kopfhörer',
+      image: '/images/philips.webp',
+      price: 18,
+      countInStock: 30,
+      brand: 'Philips',
+      rating: 4.5,
+      numReviews: 80,
+      description: 'Ergonomischer, verstellbarer Bügel; 32 mm Neodym-Lautsprechertreiber; Ohrpolster mit Geräuschisolierung; weiche Ohrpolster; ultraleichter Bügel;',
+    },
+    
+   
+  ],
+};
+
+module.exports = data;
